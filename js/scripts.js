@@ -468,7 +468,7 @@ jQuery(function($){
 
 jQuery(function ($){
     "use strict";
-    var weddDay = new Date(2020, 11, 3);
+    var weddDay = new Date(2018, 11, 3);
     $('#default-countdown').countdown({until: weddDay});
 });
 
