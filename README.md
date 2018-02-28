@@ -1,4 +1,4 @@
-# Wedding
+# Wedding coheng.github.io/wedding.html
 
 1. Applying my very basic HTML & CSS skills to design my wedding inivtation. 
 
@@ -7,3 +7,7 @@
 
 4. Found a piece of PHP that I wangled to send through RSVPs to a dedicated mailbox
 5. My Responsive implementation seems like quite a shlep but it works on the desired devices
+
+
+
+# DigiQuill Website coheng.github.io/DigiQuill/public/index.html
