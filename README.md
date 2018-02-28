@@ -1,4 +1,5 @@
-# Wedding coheng.github.io/wedding.html
+# Wedding 
+http://coheng.github.io/wedding.html
 
 1. Applying my very basic HTML & CSS skills to design my wedding inivtation. 
 
@@ -10,4 +11,5 @@
 
 
 
-# DigiQuill Website coheng.github.io/DigiQuill/public/index.html
+# DigiQuill Website 
+http://coheng.github.io/DigiQuill/public/index.html
