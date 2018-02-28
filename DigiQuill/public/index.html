@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!--- Basic Page Needs  -->
+    <meta charset="utf-8">
+    <title>DigiQuill</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Mobile Specific Meta  -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/jquery-ui.css">
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/slicknav.min.css">
+    <link rel="stylesheet" href="assets/css/typography.css">
+    <link rel="stylesheet" href="assets/css/jquery.mb.YTPlayer.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/png" href="assets/img/icon/favicon.ico">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+    <script>
+      window.onscroll = function() {
+        growShrinkLogo()
+      };
+
+      function growShrinkLogo() {
+        var Logo = document.getElementById("Logo")
+        if (document.body.scrollTop > 210 || document.documentElement.scrollTop > 210) {
+          Logo.style.width = '100px';
+        } else {
+          Logo.style.width = '175px';
+        }
+      }
+    </script>
+</head>
+
+<body>
+    <!-- prealoader area start -->
+    <div id="preloader">
+        <div class="spiner"></div>
+    </div>
+    <!-- prealoader area end -->
+    <!-- header area start -->
+    <header>
+        <div class="header-area header_style_one">
+            <div class="container">
+                <div class="row">
+                    <div class="menu-area">
+                        <div class="col-md-3 col-sm-12 col-xs-12">
+                            <div class="logo">
+                                <a href="index.html" title="DigiQuill"><img src="assets/img/icon/logo.png" alt="logo" id="Logo"></a>
+                            </div>
+                        </div>
+                        <div class="col-md-9 hidden-sm hidden-xs">
+                            <div class="main-menu">
+                                <nav class="nav-menu">
+                                    <ul id="mobile_menu">
+                                        <li class="active"><a href="#home">Home</a></li>
+                                        <li><a href="#about">About</a></li>
+                                        <li><a href="#products">Products</a></li>
+                                        <li><a href="#blog">Careers</a></li>
+                                        <li><a href="#contact">Contact</a></li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-xs-12 visible-sm visible-xs">
+                            <div class="mobile-menu">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- header area end -->
+    <!-- slider area start -->
+    <section class="slider-area slider_style_one" id="home">
+        <canvas id="canvas-gradient"></canvas>
+        <div class="container">
+            <div class="slider-text text-center">
+                <div class="slider-inner">
+                    <h2>A Digital Software Product Company</h2>
+                    <p>DigiQuill (DQ) is a leading software & technology company with an outstanding reputation for delivering results and a passion for quality.</p>
+
+                </div>
+            </div>
+            <div class="go-down"><a href="#about"><img src="assets/img/icon/scroll-arrow.svg" alt="scroll arrow"></a></div>
+        </div>
+    </section>
+    <!-- slider area end -->
+    <!-- product area start -->
+    <section class="product-area pt--120 bg-gray" id="about">
+        <div class="container">
+            <div class="section-title text-center">
+              <h2>About DigiQuill</h2>
+              <p>We're Product People building industry distrupting applications. Established in 2000, our work has seen us operating across 5 continents in the mining, financial services, media, transport, manufacturing, healthcare, gaming and hospitability sectors as well as for several government agencies. As our business has grown over the years we have developed a formidable technical competence, without ever losing our holistic approach and our strong passion to add tangible value; this is locked into our DNA.</p>
+            </div>
+            <div class="row">
+                <div class="products-item-area text-center">
+                    <div class="col-md-4 col-sm-4 col-xs-12">
+                        <div class="product-item">
+                            <div class="icon"><i class="fa fa-laptop"></i></div>
+                            <h4>Passionate</h4>
+                            <p>We're obsessed with the latest Tech and operate in a fully Agile development environment.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-4 col-xs-12">
+                        <div class="product-item">
+                            <div class="icon"><i class="fa fa-users"></i></div>
+                            <h4>People</h4>
+                            <p>We employ some of the brightest minds in the Technology industry.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-4 col-xs-12">
+                        <div class="product-item">
+                            <div class="icon"><i class="fa fa-puzzle-piece"></i></div>
+                            <h4>Products</h4>
+                            <p>We build products that are not only functionally impressive, but beautiful too.</p>
+                        </div>
+                    </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- product area end -->
+    <!-- about area start -->
+    <section class="about-area pt--120" id="products">
+        <div class="container">
+            <div class="section-title text-center">
+                <h2>Our Products</h2>
+                <p>Below is a list of our current product suite. Contact us for a demo!</p>
+            </div>
+              <div class="row" style="padding-top:60px; text-align:center;">
+                <div class="col-md-4 col-sm-12 col-xs-12">
+                  <a href="https://www.pipware.net" target="_blank">
+                    <img src="assets/img/product/pipware.png" class="product-logo" alt="screen">
+                  </a>
+                </div>
+                <div class="col-md-4 col-sm-12 col-xs-12">
+                  <a href="https://www.getqerent.com" target="_blank">
+                  <img src="assets/img/product/qerent.png" class="product-logo" alt="screen">
+                </a>
+                </div>
+                <div class="col-md-4 col-sm-12 col-xs-12">
+                  <a href="https://www.bizcash.co.za" target="_blank">
+                  <img src="assets/img/product/bizcash.png" class="product-logo" alt="screen">
+                </a>
+                </div>
+              </div>
+            <!--<div class="row">
+                <div class="col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-12">
+                    <div class="screen-slider owl-carousel">
+                        <img src="assets/img/screen/screen-slider-one/Screen1.png" alt="screen">
+                        <img src="assets/img/screen/screen-slider-one/Screen2.png" alt="screen">
+                        <img src="assets/img/screen/screen-slider-one/Screen3.png" alt="screen">
+                    </div>
+                </div>
+            </div> -->
+        </div>
+    </section>
+    <!-- about area end -->
+    <!-- hblog area start -->
+    <section class="hblog-area pt--120 pb--190 bg-gray" id="blog">
+        <div class="container">
+            <div class="section-title text-center">
+                <h2>Career Opportunities</h2>
+                <p>We're constantly scouting for the best talent to join our team. DigiQuill’s intensive hiring programme seeks out exceptional people who not only have outstanding technical expertise, but also a rare acumen and passion for business and its challenges. It is this outlook of professionalism which underpins our delivery of software. See some of our available positions below:</p>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-sm-6 col-xs-12">
+                    <div class="single-blog">
+                        <div class="blog-thumb">
+                            <a href="404.html"><img src="assets/img/Careers/career1.jpg" alt="blog image"></a>
+                            <div class="post-date">
+                                <h2>Apply</h2>
+                                <p>Below</p>
+                            </div>
+                        </div>
+                        <div class="blog-info">
+                            <h4 class="title"><a href="#">Senior Software Engineer</a></h4>
+                            <div class="blog-summary">
+                                <p>We're looking for a rockstar engineer to join our growing Johannesburg team.</p>
+                            </div>
+                            <div class="btn-area btn-style-one">
+                                <a href="senior-software-engineer.html" target="_blank">Apply Now!</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-6 col-xs-12">
+                    <div class="single-blog">
+                        <div class="blog-thumb">
+                            <a href="404.html"><img src="assets/img/Careers/career2.jpg" alt="blog image"></a>
+                            <div class="post-date">
+                                <h2>Apply</h2>
+                                <p>Below</p>
+                            </div>
+                        </div>
+                        <div class="blog-info">
+                            <h4 class="title"><a href="#">Senior Software Engineer</a></h4>
+                            <div class="blog-summary">
+                                <p>We're looking for a rockstar engineer to join our growing Johannesburg team.</p>
+                            </div>
+                            <div class="btn-area btn-style-one">
+                                <a href="senior-software-engineer.html" target="_blank">Apply Now!</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- hblog area end -->
+    <!-- contact area start -->
+    <div class="contact-area pt--120 pb--90" id="contact">
+        <div class="container">
+            <div class="section-title text-center">
+                <h2>Contact Us</h2>
+                <p>Whether its for a cup of coffee or to experience our amazing software first-hand, get in touch below.</p>
+            </div>
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-12">
+                    <div class="contact-us-form">
+                        <div class="wpcf7">
+                            <div class="screen-reader-response"></div>
+                            <form action="mail.php" method="post" id="cf">
+                                <div class="row">
+                                    <div class="col-xs-12">
+                                        <div class="row">
+                                            <div class="col-md-6 col-sm-6 col-xs-12">
+                                                <input type="text" placeholder="Your Name" id="fname" name="fname">
+                                            </div>
+                                            <div class="col-md-6 col-sm-6 col-xs-12">
+                                                <input type="text" placeholder="Your Email" id="email" name="email">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-12">
+                                        <textarea class="contact-textarea" placeholder="Your Message" id="msg" name="msg"></textarea>
+                                    </div>
+                                    <div class="col-xs-12">
+                                        <button type="submit" id="submit" class="cnt-submit-btn" name="submit">send message</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- contact area end -->
+    <!-- footer area start -->
+    <footer>
+        <div class="footer-area pt-70 pb--120 bg-gray">
+            <img src="assets/img/footer-top.svg" alt="svg background">
+            <div class="container">
+                <div class="footer-content text-center">
+                    <div class="logo">
+                        <a href="index.html">DigiQuill</a>
+                    </div>
+                    <div>
+                      <p> 1st Floor, North Wing 90 Rivonia Road Sandton, 2196, South Africa </p>
+                      <p> A Division of <a href="https://cyestcorp.co.za"> The Cyest Corporation.</a></p>
+                    </div>
+                    <div class="fsocial">
+                        <ul>
+                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                            <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                        </ul>
+                    </div>
+                    <p class="copy-right">Copyright 2018 &copy; DigiQuill.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer area end -->
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery-3.2.0.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/jquery-ui.js"></script>
+    <!-- owl-carousel -->
+    <script src="assets/js/owl-carousel.js"></script>
+    <!-- canvas -->
+    <script src="assets/js/glassy-worms.js"></script>
+    <script src="assets/js/sketch-canvas.js"></script>
+    <script src="assets/js/granim-canvas.js"></script>
+    <!-- youtube player -->
+    <script src="assets/js/jquery.mb.YTPlayer.js"></script>
+    <!-- plugins -->
+    <script src="assets/js/plugin.js"></script>
+    <!-- main js -->
+    <script src="assets/js/script.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,545 @@
+/* Medium Layout: 1367px. */
+
+@media only screen and (min-width: 1200px) and (max-width: 1367px) {
+    /*=============================
+	Home Two
+	=============================*/
+}
+
+/* Medium Layout: 1280px. */
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .main-menu nav ul li a {
+        margin-right: 26px;
+    }
+    .about-area {
+        padding-top: 90px;
+    }
+    .screen-area,
+    .pricing-area,
+    .info-area,
+    .team-area,
+    .faq-area,
+    .contact-area {
+        padding: 90px 0px;
+    }
+    .product-area {
+        padding: 90px 0px 220px;
+    }
+    .info-area {
+        padding-bottom: 70px;
+    }
+    .hblog-area {
+        padding: 80px 0px 170px;
+    }
+    .subscribe-area {
+        padding: 0px 0px 90px;
+    }
+    .footer-area {
+        padding-bottom: 80px;
+    }
+
+    /*=============================
+	Blog Standard
+	=============================*/
+    .blog-standard {
+        margin-top: 70px;
+    }
+    .sidebar-area {
+        margin-top: 110px;
+        padding-left: 0;
+    }
+
+    /*=============================
+	Home Two
+	=============================*/
+    .slider_style_two .slider-inner h2 {
+        font-size: 60px;
+    }
+
+    /*=============================
+	Cooming Soon
+	=============================*/
+    .cm-header h2 {
+        font-size: 60px;
+        line-height: 70px;
+    }
+    .cm-header p {
+        font-size: 18px;
+        margin: 14px 0px 34px;
+    }
+    .count-down {
+        padding-left: 10px;
+    }
+    .count-down .cdown {
+        margin-right: 20px;
+    }
+
+    /*=============================
+	404 Page
+	=============================*/
+    .carton-icon {
+        left: 10%;
+        top: 3%;
+    }
+}
+
+
+/* Tablet Layout: 768px. */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .logo {
+        margin: 19px 0px 10px;
+    }
+    .screen-slider .owl-item.center {
+        transform: translateY(-26px) scale(1.15);
+    }
+    .about-area {
+        padding-top: 80px;
+    }
+    .screen-area,
+    .pricing-area,
+    .info-area,
+    .team-area,
+    .faq-area,
+    .contact-area {
+        padding: 80px 0px;
+    }
+    .product-area {
+        padding: 80px 0px 222px;
+    }
+    .vimeo-video {
+        margin-top: 50px;
+    }
+    .info-content h2 {
+        font-size: 30px;
+    }
+    .hblog-area {
+        padding: 80px 0px 150px;
+    }
+    .subscribe-area {
+        padding: 0px 0px 80px;
+    }
+    .footer-area {
+        padding-bottom: 80px;
+    }
+
+    /*=============================
+	Blog Standard
+	=============================*/
+    .blog-standard {
+        margin-top: 60px;
+    }
+    .sidebar-area {
+        margin-top: 100px;
+        padding-left: 0;
+    }
+    .meta-content a {
+        font-size: 15px;
+        letter-spacing: 0;
+    }
+
+    /*=============================
+	Home Two
+	=============================*/
+    .slider_style_two .slider-inner h2 {
+        font-size: 54px;
+        line-height: 68px;
+    }
+
+    /*=============================
+	Cooming Soon
+	=============================*/
+    .cm-header h2 {
+        font-size: 56px;
+        line-height: 75px;
+    }
+    .cm-header p {
+        font-size: 18px;
+        margin: 14px 0px 34px;
+    }
+    .count-down {
+        padding-left: 10px;
+    }
+    .count-down .cdown {
+        margin-right: 20px;
+    }
+    .count-down .cdown .time-count {
+        font-size: 40px;
+    }
+
+
+    /*=============================
+	404 Page
+	=============================*/
+    .carton-icon {
+        left: 7px;
+    }
+}
+
+/* Mobile Layout: 320px. */
+
+@media only screen and (max-width: 767px) {}
+
+
+/* Wide Mobile Layout: 480px. */
+
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+    .logo {
+        margin: 19px 0px 10px;
+    }
+    .slider-inner h2 {
+        font-size: 33px;
+        line-height: 46px;
+    }
+    .slider-area {
+        height: 500px;
+    }
+    .about-area {
+        padding-top: 70px;
+    }
+    .screen-slider .owl-item.center {
+        transform: translateY(0px)scale(1);
+    }
+    .screen-slider {
+        max-width: 320px;
+        margin: auto;
+        margin-top: 48px;
+    }
+    .screen-slider .owl-item {
+        padding-top: 0;
+    }
+    .screen-area,
+    .pricing-area,
+    .info-area,
+    .team-area,
+    .faq-area,
+    .contact-area {
+        padding: 70px 0px;
+    }
+    .info-area {
+        padding-bottom: 70px;
+    }
+    .product-area {
+        padding-bottom: 208px;
+        padding-top: 70px;
+    }
+    .hw-content h2 {
+        font-size: 27px;
+        line-height: 34px;
+        margin-bottom: 18px;
+    }
+    .vimeo-video {
+        margin-top: 30px;
+    }
+    .hw-inner-wrap {
+        padding: 70px 30px 33px;
+    }
+    .price-list-area {
+        max-width: 420px;
+        margin: auto;
+        margin-top: 48px;
+    }
+    .single-member {
+        max-width: 420px;
+        margin: auto;
+        margin-top: 50px;
+    }
+    .single-blog {
+        max-width: 420px;
+        margin: auto;
+        margin-top: 42px;
+    }
+    .info-area .d-flex {
+        display: block;
+    }
+    .info-area {
+        padding-bottom: 70px;
+    }
+    .hblog-area {
+        padding: 70px 0px 138px;
+    }
+    .subscribe-area {
+        padding: 0px 0px 70px;
+    }
+    .footer-area {
+        padding-bottom: 70px;
+    }
+
+    /*=============================
+	Blog Standard
+	=============================*/
+    .blog-standard {
+        margin-top: 40px;
+    }
+    .sidebar-area {
+        margin: 70px auto auto;
+        max-width: 420px;
+        padding-left: 0;
+    }
+    /*=============================
+	Home Two
+	=============================*/
+    .slider_style_two .slider-inner h2 {
+        font-size: 40px;
+        line-height: 51px;
+    }
+    .slider_style_two .slider-inner,
+    .slider_style_two .download-app-thumb {
+        text-align: center;
+    }
+
+    /*=============================
+	Cooming Soon
+	=============================*/
+    .cm-header h2 {
+        font-size: 55px;
+        line-height: 72px;
+    }
+    .cm-header p {
+        font-size: 16px;
+        margin: 12px 0px 34px;
+    }
+    .count-down {
+        padding-left: 0px;
+        margin-top: 40px;
+    }
+}
+
+/* Wide Mobile Layout: 480px. */
+
+@media only screen and (min-width: 240px) and (max-width: 480px) {
+    /*=============================
+	Home One
+	=============================*/
+    .logo {
+        margin: 19px 0px 10px;
+    }
+    .slider-inner h2 {
+        font-size: 21px;
+        letter-spacing: 0;
+        line-height: 38px;
+    }
+    .download-app-thumb a {
+        padding: 13px 26px;
+        margin-bottom: 15px;
+    }
+    .download-app-thumb {
+        margin-top: 41px;
+    }
+    .slider-area {
+        height: 600px;
+    }
+    .about-area {
+        padding-top: 60px;
+    }
+    .section-title h2 {
+        font-size: 19px;
+        line-height: 29px;
+    }
+    .screen-slider .owl-item {
+        padding-top: 0px;
+    }
+    .screen-slider .owl-item.center {
+        transform: translateY(0px)scale(1);
+    }
+    .product-area {
+        padding: 60px 0 198px;
+    }
+    .hw-inner-wrap {
+        padding: 34px 20px;
+    }
+    .hw-content h2 {
+        font-size: 19px;
+        line-height: 28px;
+        margin-bottom: 21px;
+    }
+    .info-area .d-flex {
+        display: block;
+    }
+    .vimeo-video iframe {
+        height: 141px;
+    }
+    .vimeo-video {
+        margin-top: 35px;
+    }
+    .screen-area,
+    .pricing-area,
+    .info-area,
+    .team-area,
+    .faq-area,
+    .contact-area {
+        padding: 60px 0px;
+    }
+    .info-area {
+        padding-bottom: 70px;
+    }
+    .info-content h2 {
+        font-size: 22px;
+        line-height: 31px;
+    }
+    .faq-head h4 a {
+        padding: 15px 28px 15px 15px;
+    }
+    .faq-head h4 a::before {
+        right: 11px;
+    }
+    .hblog-area {
+        padding: 60px 0 120px;
+    }
+    .subscribe-area {
+        padding: 0px 0px 60px;
+    }
+    .subscribe-form form {
+        display: block;
+        text-align: center;
+    }
+    .subscribe-form form input[type="email"] {
+        width: 100%;
+    }
+    .subscribe-form form #subscribe-btn {
+        margin-top: 15px;
+        float: none;
+    }
+    .footer-area img {
+        top: -5px;
+    }
+    .footer-area {
+        padding-bottom: 70px;
+    }
+
+    /*=============================
+	Blog Standard
+	=============================*/
+    .crumbs-content {
+        padding: 80px 0px;
+    }
+    .blog-standard {
+        margin-top: 20px;
+    }
+    .blog-summary {
+        margin-top: 16px;
+    }
+    .blog-meta span {
+        margin-right: 18px;
+    }
+    .sidebar-area {
+        margin-top: 60px;
+        padding-left: 0;
+    }
+    .widget-tag-list {
+        text-align: center;
+    }
+    .pagination-wrapper li:first-child a,
+    .pagination-wrapper li:last-child a {
+        padding: 0;
+        font-size: 10px;
+    }
+    .pagination-wrapper li a {
+        padding: 1px;
+    }
+
+    /*=============================
+	Blog Details
+	=============================*/
+    .blog-info {
+        padding: 20px 12px 40px;
+    }
+    .blog-summary blockquote p {
+        font-size: 14px;
+    }
+    .blog-summary blockquote {
+        padding: 33px 5px 25px 42px;
+    }
+    blockquote::before {
+        font-size: 26px;
+        left: 14px;
+    }
+    .comment-info-inner article {
+        padding: 51px 0 0 78px;
+    }
+    .comment-author img {
+        left: -98px;
+        top: -3px;
+    }
+    .children {
+        padding-left: 13px;
+    }
+    .comment-author h2 span {
+        display: block;
+        margin-bottom: 9px;
+        margin-left: 0;
+        margin-top: 9px;
+    }
+    .comment-reply {
+        top: 48px;
+    }
+
+    /*=============================
+	Home Two
+	=============================*/
+    .slider_style_two .slider-inner h2 {
+        font-size: 28px;
+        line-height: 38px;
+    }
+    .slider_style_two .slider-inner,
+    .slider_style_two .download-app-thumb {
+        text-align: center;
+    }
+
+    /*=============================
+	Cooming Soon
+	=============================*/
+    .cooming-soon {
+        height: auto;
+        display: block;
+        padding: 90px 0px;
+    }
+    .cm-header h2 {
+        font-size: 31px;
+        line-height: 45px;
+    }
+    .cm-header p {
+        margin: 18px 0px 22px;
+        font-size: 16px;
+        line-height: 29px;
+    }
+    .count-down {
+        padding-left: 0px;
+        margin-top: 40px;
+    }
+    .count-down .cdown {
+        display: inline-block;
+        margin-right: 0px;
+        width: 45%;
+    }
+    .count-down .cdown .time-count {
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    /*=============================
+	404 Page
+	=============================*/
+    .f_zero_f {
+        display: block;
+    }
+    .carton-icon {
+        left: 8%;
+        top: 21px;
+    }
+    .carton-icon img {
+        max-height: 303px;
+    }
+    .error-content {
+        width: 100%;
+        padding: 0px 29px;
+        position: relative;
+        z-index: 9;
+        padding-top: 344px;
+    }
+    .error-content p {
+        margin-right: 0;
+        text-align: center;
+    }
+}
