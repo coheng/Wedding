@@ -10,6 +10,6 @@ $output 	= "Name: ".$fname."\n\nEmail: ".$email."\n\nMessage: ".$msg;
 $to 		= 'gary.cohen@pipware.net';
 $headers	= 'FROM: "'.$email.'"';
 
-$send		= mail($to, $subject, $output."\n\n***This message has been sent from Softy", $headers);
+$send		= mail($to, $subject, $output."\n\n***This message has been sent", $headers);
 }
 ?>
