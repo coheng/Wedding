@@ -2242,7 +2242,18 @@ END Cooming Soon
     max-height: 100%;
 }
 
+.career-list li {
+  line-height: 25px;
+}
+.career-list h6 {
+  line-height: 25px;
+  margin-top: 12px;
+}
 
+.career-list h4 {
+  line-height: 25px;
+  margin-top: 20px;
+}
 /*=============================
 END 404 Page
 =============================*/
