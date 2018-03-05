@@ -1,5 +1,5 @@
 # Wedding 
-http://coheng.github.io/wedding.html
+http://coheng.github.io/WeddingInvite/wedding.html
 
 1. Applying my very basic HTML & CSS skills to design my wedding inivtation. 
 
