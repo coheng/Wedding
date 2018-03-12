@@ -29,7 +29,7 @@
     .info-area {
         padding-bottom: 70px;
     }
-    .hblog-area {
+    .hcareers-area {
         padding: 80px 0px 170px;
     }
     .subscribe-area {
@@ -40,9 +40,9 @@
     }
 
     /*=============================
-	Blog Standard
+	careers Standard
 	=============================*/
-    .blog-standard {
+    .careers-standard {
         margin-top: 70px;
     }
     .sidebar-area {
@@ -114,7 +114,7 @@
     .info-content h2 {
         font-size: 30px;
     }
-    .hblog-area {
+    .hcareers-area {
         padding: 80px 0px 150px;
     }
     .subscribe-area {
@@ -125,9 +125,9 @@
     }
 
     /*=============================
-	Blog Standard
+	careers Standard
 	=============================*/
-    .blog-standard {
+    .careers-standard {
         margin-top: 60px;
     }
     .sidebar-area {
@@ -245,7 +245,7 @@
         margin: auto;
         margin-top: 50px;
     }
-    .single-blog {
+    .single-careers {
         max-width: 420px;
         margin: auto;
         margin-top: 42px;
@@ -256,7 +256,7 @@
     .info-area {
         padding-bottom: 70px;
     }
-    .hblog-area {
+    .hcareers-area {
         padding: 70px 0px 138px;
     }
     .subscribe-area {
@@ -267,9 +267,9 @@
     }
 
     /*=============================
-	Blog Standard
+	careers Standard
 	=============================*/
-    .blog-standard {
+    .careers-standard {
         margin-top: 40px;
     }
     .sidebar-area {
@@ -384,7 +384,7 @@
     .faq-head h4 a::before {
         right: 11px;
     }
-    .hblog-area {
+    .hcareers-area {
         padding: 60px 0 120px;
     }
     .subscribe-area {
@@ -409,18 +409,18 @@
     }
 
     /*=============================
-	Blog Standard
+	careers Standard
 	=============================*/
     .crumbs-content {
         padding: 80px 0px;
     }
-    .blog-standard {
+    .careers-standard {
         margin-top: 20px;
     }
-    .blog-summary {
+    .careers-summary {
         margin-top: 16px;
     }
-    .blog-meta span {
+    .careers-meta span {
         margin-right: 18px;
     }
     .sidebar-area {
@@ -440,15 +440,15 @@
     }
 
     /*=============================
-	Blog Details
+	careers Details
 	=============================*/
-    .blog-info {
+    .careers-info {
         padding: 20px 12px 40px;
     }
-    .blog-summary blockquote p {
+    .careers-summary blockquote p {
         font-size: 14px;
     }
-    .blog-summary blockquote {
+    .careers-summary blockquote {
         padding: 33px 5px 25px 42px;
     }
     blockquote::before {

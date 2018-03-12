@@ -968,16 +968,16 @@ END Faq Area
 
 
 /*=============================
-2.11 Blog Area
+2.11 careers Area
 =============================*/
 
-.hblog-area {}
+.hcareers-area {}
 
-.single-blog {
+.single-careers {
     margin-top: 42px;
 }
 
-.blog-thumb {
+.careers-thumb {
     display: inline-block;
     overflow: hidden;
     position: relative;
@@ -986,41 +986,41 @@ END Faq Area
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.05);
 }
 
-.blog-thumb a {
+.careers-thumb a {
     display: block;
     position: relative;
 }
 
-.blog-thumb a img {
+.careers-thumb a img {
     width: 100%;
     max-width: 100%;
     -webkit-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
 }
 
-.single-blog .blog-thumb a:hover img {
+.single-careers .careers-thumb a:hover img {
     filter: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="filter"><feColorMatrix type="matrix" color-interpolation-filters="sRGB" values="6.509 -5.005 -0.504 0 0 -1.4909999999999999 3.0749999999999997 -0.504 0 0 -1.4909999999999999 -5.005 7.496 0 0 0 0 0 1 0" /><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="linear" slope="1.1" /><feFuncG type="linear" slope="1.1" /><feFuncB type="linear" slope="1.1" /></feComponentTransfer></filter></svg>#filter');
     -webkit-filter: saturate(2) brightness(110%);
     filter: saturate(2) brightness(110%);
 }
 
-.blog-info {
+.careers-info {
     background: #fffefe;
     padding: 20px 20px 40px;
     border-radius: 0px 0px 5px 5px;
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.08);
 }
 
-.blog-info h4.title a {
+.careers-info h4.title a {
     font-size: 19px;
     letter-spacing: 0.01em;
     color: #444;
     font-weight: 600;
 }
 
-.blog-meta {}
+.careers-meta {}
 
-.blog-meta span {
+.careers-meta span {
     font-family: 'Nunito', sans-serif;
     color: #888;
     font-size: 16px;
@@ -1030,7 +1030,7 @@ END Faq Area
     position: relative;
 }
 
-.blog-meta span:before {
+.careers-meta span:before {
     content: '/';
     position: absolute;
     right: -11px;
@@ -1038,11 +1038,11 @@ END Faq Area
     font-size: 13px;
 }
 
-.blog-meta span:last-child:before {
+.careers-meta span:last-child:before {
     display: none;
 }
 
-.blog-meta span a {
+.careers-meta span a {
     font-family: 'Nunito', sans-serif;
     color: #888;
     font-size: 16px;
@@ -1050,21 +1050,21 @@ END Faq Area
     letter-spacing: 0;
 }
 
-.blog-summary {
+.careers-summary {
     margin-top: 7px;
 }
 
-.blog-summary p {
+.careers-summary p {
     color: #555;
 }
 
-.blog-info .btn-area {
+.careers-info .btn-area {
     margin-top: 25px;
 }
 
 
 /*=============================
-END Blog Area
+END careers Area
 =============================*/
 
 
@@ -1426,7 +1426,7 @@ END Home Three
 
 
 /*=============================
-4. Blog Standard
+4. careers Standard
 =============================*/
 
 .crumbs-area {
@@ -1496,9 +1496,9 @@ END Home Three
 }
 
 
-/*blog-section*/
+/*careers-section*/
 
-.blog-standard {
+.careers-standard {
     margin-top: 80px;
 }
 
@@ -1803,15 +1803,15 @@ END Home Three
 
 
 /*=============================
-3. Blog Standard
+3. careers Standard
 =============================*/
 
 
 /*=============================
-4. Blog Sidebar Left
+4. careers Sidebar Left
 =============================*/
 
-.blog-sidebar-left>div>div {
+.careers-sidebar-left>div>div {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1822,21 +1822,21 @@ END Home Three
 
 
 /*=============================
-5. Blog Details
+5. careers Details
 =============================*/
 
-.blog-summary blockquote {
+.careers-summary blockquote {
     margin: 40px 0px;
     padding: 33px 20px 25px 61px;
     background: #edf4f9;
 }
 
-.blog-summary blockquote:before {
+.careers-summary blockquote:before {
     top: 44px;
     color: #f26267;
 }
 
-.blog-summary blockquote p {
+.careers-summary blockquote p {
     font-size: 17px;
     color: #f26267;
     line-height: 30px;
@@ -2068,7 +2068,7 @@ END Home Three
 
 
 /*=============================
-END Blog Details
+END careers Details
 =============================*/
 
 
